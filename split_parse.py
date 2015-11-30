@@ -9,21 +9,36 @@ INPUT_CHARSET="utf-8"
 
 ########## Function ##############################################
 
+def getfileName(n):
+    i=1
+    name=n
+    if os.path.exists(n+".xml"):
+        name=n+"_"+str(i)
+        while os.path.exists(name+".xml"):
+            i+=1
+            name=n+"_"+str(i)
+    
+    return name+".xml"
+
 
 def saveFile(OutputFolder,OutputHeader,name,content):
+    filename=getfileName(OutputFolder+"/"+name)
     outputFooter='</div>\n</body>\n</text>\n</TEI>'
-    foutput=open(OutputFolder+"/"+name+".xml","w",encoding=INPUT_CHARSET)
+    foutput=open(filename,"w",encoding=INPUT_CHARSET)
     foutput.write(OutputHeader.replace("\\n","\r"))
     foutput.write(content.replace("\\n","\r")[2:-1])
     foutput.write(outputFooter)
     foutput.close()
 
 def saveFileWITHOUTHEADER(OutputFolder,name,content):
-    foutput=open(OutputFolder+"/"+name+".xml","w",encoding=INPUT_CHARSET)
+    filename=getfileName(OutputFolder+"/"+name)
+    foutput=open(filename,"w",encoding=INPUT_CHARSET)
     #foutput.write(OutputHeader.replace("\\n","\r"))
     foutput.write(content.replace("\\n","\r")[2:-1])
     #foutput.write(outputFooter)
-    foutput.close()    
+    foutput.close()
+
+
 
 def listallFilesinFolder(mypath,extension):
 	extension="."+extension.lower()
@@ -79,15 +94,15 @@ def ParseFile(OutputFolder,path):
             elif att['subtype']=="dedication":  # dedication
                 dedication+=1
                 saveFileWITHOUTHEADER(OutputFolder,"Dedication"+str(dedication),str(ET.tostring(child)))
-            
 
-    
+
+
 
 ##################################################################
 
 ####################### Code starts here #########################
 
-folderPath="/u/stoyanova/Desktop/csel-dev" # path of the folder where CSEL XML file exist
+folderPath= "files/"#"/u/stoyanova/Desktop/csel-dev" # path of the folder where CSEL XML file exist
 
 # 1- List all files in the folder
 files=listallFilesinFolder(folderPath,"xml")
@@ -98,5 +113,3 @@ for f in files:
     if not os.path.exists(OutputFolder):
         os.makedirs(OutputFolder)
     ParseFile(OutputFolder,filepath)
-
-
