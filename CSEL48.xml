@@ -1662,7 +1662,8 @@
             <pb n="-"/>
             
         </div>
-        <div type="textpart" subtype="MSS">
+        <div type="textpart" subtype="work" n="urn:cts:latinLit:stoa0058.stoa007.opp-lat2">
+        <div type="textpart" subtype="mss">
           <head>
             <title type="main">Sancti Optati Mileuitani Libri VII.</title>
           </head>
@@ -1680,7 +1681,7 @@
           <p>d = editio Dupiniana, Antuerpiae 1702.</p><pb n="-"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="book" n="1">
           <ab>
             <title type="sub">LIBER PRIMUS.</title>
           </ab>
@@ -2788,6 +2789,8 @@
             LIB. I <hi rend="italic">(rubr.) P fol. 258*,</hi> Explicit liber primus sancti Optati <hi rend="italic">(om.</hi> <lb/>
             amen) <hi rend="italic">G fol. 11*</hi> </note> <pb n="32"/>
             </p>
+        </div>
+          <div type="textpart" subtype="book" n="2">
           <ab>
             <title type="sub">LIBER SECUNDUS.</title>
           </ab>
@@ -4071,6 +4074,8 @@
             liber Secundus <hi rend="italic">B fol. 22* 2,</hi> Eiplicit liber Sancti Optati Secundus <lb/>
             <hi rend="italic">(rubr.) G fol.. 24 *,</hi> Eiplicit liber secundus v </note> <pb n="67"/>
             </p>
+          </div>
+          <div type="textpart" subtype="book" n="3">
           <ab>
             <title type="sub">LIBER TERTIUS.</title>
           </ab>
@@ -5356,8 +5361,8 @@
             et fingens <hi rend="italic">b</hi> 10 arbitrio tuo <hi rend="italic">RB"</hi> taurinum et macharium <hi rend="italic">RBv</hi> <lb/>
             12 auditus <hi rend="italic">G clausit] add. in codd.</hi> probatum est <hi rend="italic">(cfr. finem libr. IIII)</hi></note> </p>
         </div><pb n="-"/>
-        
-        <div type="textpart" subtype="chapter">
+      
+        <div type="textpart" subtype="book" n="4">
           <ab>
             <title type="sub">LIBER QUARTUS.</title>
           </ab>
@@ -5909,7 +5914,7 @@
             Quartus <hi rend="italic">G fol. 42»</hi> </note> <pb n="118"/>
             </p>
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="book" n="5">
           <ab>
             <title type="sub">LIBER QUINTUS.</title>
           </ab>
@@ -6780,7 +6785,7 @@
             <pb n="142"/>
             </p>
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="book" n="6">
           <ab>
             <title type="sub">LIBER SEXTUS.</title>
           </ab>
@@ -7370,7 +7375,7 @@
              (rubr.) G fol. 57</hi> h, Finis <hi rend="italic">v (haec sunt ultima Optati librorum in v)</hi> </note> <pb n="158"/>
             </p>
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="book" n="7">
           <ab>
             <title type="sub">LIBER SEPTIMUS.</title>
           </ab>
@@ -8257,6 +8262,7 @@
             Septimus Sancti Optati Episcopi <hi rend="italic">G</hi> </note> <pb n="183"/>
             </p>
         </div>
+        
         <div type="textpart" subtype="chapter">
           <head>
             <title type="main">Appendix</title>
@@ -9607,7 +9613,9 @@
             nec non epistola constantini imperatoris. amen. </note> <pb n="217"/>
             </p>
         </div>
-        <div type="textpart" subtype="chapter">
+        </div>
+      </div>
+          <div type="textpart" subtype="index">
           <head>
             <title type="main">I. INDEX SCRIPTORVM.</title>
           </head>
@@ -9939,7 +9947,7 @@
             29, 21 ...... *204, 1-12</p><pb n="221"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="index">
           <head>
             <title type="main">II. INDEX NOMINVM ET RERVM.</title>
           </head>
@@ -12555,7 +12563,7 @@
             Caeciliani 26, 17</p><pb n="246"/>
             
         </div>
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="index">
           <head>
             <title type="main">III. INDEX YERBORYM ET LOCVTIONVI.</title>
           </head>
@@ -21575,7 +21583,7 @@
             19; 170. 16</p>
         </div><pb n="-"/>
         
-        <div type="textpart" subtype="chapter">
+        <div type="textpart" subtype="addenda">
           <head>
             <title type="main">Errata et addenda.</title>
           </head>
@@ -21639,8 +21647,6 @@
         <pb n="-"/>
         <pb n="-"/>
         <pb n="-"/>
-        
-      </div>
     </body>
   </text>
 </TEI>
