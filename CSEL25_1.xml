@@ -90,13 +90,14 @@
   <text>
     <body>
  
-<pb n="1"/>
+
      <div type="edition">
         
         <div type="textpart" subtype="MSS">
           <head>
             <title type="main">I. S. Aureli Augustini de utilitate credendi liber. </title>
           </head>
+	  <pb n="1"/>
           <p>
 
 <note type="footnote">XXV. Aag aeet. 6. </note>

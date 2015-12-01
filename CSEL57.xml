@@ -85,7 +85,7 @@
   <text>
     <body>
              
-<pb n="1"/>
+
       <div type="edition">
         
         <div type="textpart" subtype="work" n="stoa0040.stoa011">
@@ -94,6 +94,7 @@
           <ab>
             <title type="sub">CLXXXV. (DE CORRECTIONE DONATISTARUM LIBER.)</title>
           </ab>
+	  <pb n="1"/>
 <div type="textpart" subtype="section" n="1">
           <p><milestone unit="altchapter" n="I"/> Laudo et <choice><sic>gratnlor</sic><corr>gratulor</corr></choice> et admiror, fili dilectissime Bonifati, <lb/>
             quod inter curas bellorum et armorum uehementer desideras <lb/>

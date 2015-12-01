@@ -85,13 +85,13 @@
   </teiHeader>
   <text>
     <body>
-<pb n="I"/>
       <div type="edition">
         
         <div type="commentary" subtype="preface">
           <head>
             <title type="main">PRAEFATIO. </title>
           </head>
+<pb n="I"/>
           <p><sic n="poss">Qnod</sic> <sic n="poss">Eugippius</sic> in <sic n="poss">opistula</sic> ad <sic n="poss">Probam</sic> uirginem dicit, se <lb/>
             Excerpta ex operibus S. Augustini <sic n="poss">compilasse</sic>, quo pluribus <lb/>
             librorum diuini illius scriptoris cognoscendorum facultas esset, <lb/>
