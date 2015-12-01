@@ -102,13 +102,13 @@ def ParseFile(OutputFolder,path):
 
 ####################### Code starts here #########################
 
-folderPath= "files/"#"/u/stoyanova/Desktop/csel-dev" # path of the folder where CSEL XML file exist
+folderPath= "./"#"/u/stoyanova/Desktop/csel-dev" # path of the folder where CSEL XML file exist
 
 # 1- List all files in the folder
 files=listallFilesinFolder(folderPath,"xml")
 for f in files:
     print(f)
-    OutputFolder=folderPath+"/"+f+"_Output"
+    OutputFolder=folderPath+"/split/"+f+"_Output"
     filepath=folderPath+"/"+f
     if not os.path.exists(OutputFolder):
         os.makedirs(OutputFolder)
