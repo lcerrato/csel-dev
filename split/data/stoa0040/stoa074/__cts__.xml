@@ -1,6 +1,6 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:stoa0040" urn="urn:cts:latinLit:stoa0040.stoa074">
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0040.stoa074" groupUrn="urn:cts:latinLit:stoa0040">
   <ti:title xml:lang="eng">Quaestiones in Heptateuchum</ti:title>
-  <ti:edition workUrn="urn:cts:latinLit:stoa0040.stoa074" urn="urn:cts:latinLit:stoa0040.stoa074.opp-lat1">
+  <ti:edition urn="urn:cts:latinLit:stoa0040.stoa074.opp-lat1" workUrn="urn:cts:latinLit:stoa0040.stoa074">
     <ti:label xml:lang="eng">Quaestiones in Heptateuchum</ti:label>
     <ti:description xml:lang="eng">Augustine Saint, Bishop of Hippo, Quaestiones in Heptateuchum</ti:description>
   </ti:edition>

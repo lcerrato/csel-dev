@@ -1,6 +1,6 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:stoa0022" urn="urn:cts:latinLit:stoa0022.stoa052">
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0022.stoa052" groupUrn="urn:cts:latinLit:stoa0022">
   <ti:title xml:lang="eng">Expositio Psalmi CXVIII</ti:title>
-  <ti:edition workUrn="urn:cts:latinLit:stoa0022.stoa052" urn="urn:cts:latinLit:stoa0022.stoa052.opp-lat1">
+  <ti:edition urn="urn:cts:latinLit:stoa0022.stoa052.opp-lat1" workUrn="urn:cts:latinLit:stoa0022.stoa052">
     <ti:label xml:lang="eng">Expositio Psalmi CXVIII</ti:label>
     <ti:description xml:lang="eng">Ambrose Saint, Bishop of Milan -397, Expositio Psalmi CXVIII</ti:description>
   </ti:edition>
