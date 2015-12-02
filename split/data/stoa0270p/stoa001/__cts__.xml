@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0270p.stoa001" groupUrn="urn:cts:latinLit:stoa0270p">
+  <ti:title xml:lang="eng">Epistolae Septem</ti:title>
+  <ti:edition urn="urn:cts:latinLit:stoa0270p.stoa001.opp-lat1" workUrn="urn:cts:latinLit:stoa0270p.stoa001">
+    <ti:label xml:lang="eng">Epistolae Septem</ti:label>
+    <ti:description xml:lang="eng">Pseudo-Sulpicius Severus, Epistolae Septem</ti:description>
+  </ti:edition>
+</ti:work>

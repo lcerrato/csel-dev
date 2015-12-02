@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0123a.stoa001" groupUrn="urn:cts:latinLit:stoa0123a">
+  <ti:title xml:lang="eng">De errore profanarum religionum</ti:title>
+  <ti:edition urn="urn:cts:latinLit:stoa0123a.stoa001.opp-lat1" workUrn="urn:cts:latinLit:stoa0123a.stoa001">
+    <ti:label xml:lang="eng">De errore profanarum religionum</ti:label>
+    <ti:description xml:lang="eng">Firmicus Maternus, Julius, De errore profanarum religionum</ti:description>
+  </ti:edition>
+</ti:work>
