@@ -1,6 +1,6 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0117.stoa003" groupUrn="urn:cts:latinLit:stoa0117">
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:stoa0117" urn="urn:cts:latinLit:stoa0117.stoa003">
   <ti:title xml:lang="eng">Instructiones</ti:title>
-  <ti:edition urn="urn:cts:latinLit:stoa0117.stoa003.opp-lat1" workUrn="urn:cts:latinLit:stoa0117.stoa003">
+  <ti:edition workUrn="urn:cts:latinLit:stoa0117.stoa003" urn="urn:cts:latinLit:stoa0117.stoa003.opp-lat1">
     <ti:label xml:lang="eng">Instructiones</ti:label>
     <ti:description xml:lang="eng">Eucherius of Lyon, Saint -449?, Instructiones</ti:description>
   </ti:edition>

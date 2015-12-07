@@ -1,6 +1,6 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0040.stoa077" groupUrn="urn:cts:latinLit:stoa0040">
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:stoa0040" urn="urn:cts:latinLit:stoa0040.stoa077">
   <ti:title xml:lang="eng">Retractationum</ti:title>
-  <ti:edition urn="urn:cts:latinLit:stoa0040.stoa077.opp-lat1" workUrn="urn:cts:latinLit:stoa0040.stoa077">
+  <ti:edition workUrn="urn:cts:latinLit:stoa0040.stoa077" urn="urn:cts:latinLit:stoa0040.stoa077.opp-lat1">
     <ti:label xml:lang="eng">Retractationum</ti:label>
     <ti:description xml:lang="eng">Augustine Saint, Bishop of Hippo, Retractationum</ti:description>
   </ti:edition>

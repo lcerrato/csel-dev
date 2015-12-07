@@ -1,6 +1,6 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0076c.stoa002" groupUrn="urn:cts:latinLit:stoa0076c">
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:stoa0076c" urn="urn:cts:latinLit:stoa0076c.stoa002">
   <ti:title xml:lang="eng">Institutiones</ti:title>
-  <ti:edition urn="urn:cts:latinLit:stoa0076c.stoa002.opp-lat2" workUrn="urn:cts:latinLit:stoa0076c.stoa002">
+  <ti:edition workUrn="urn:cts:latinLit:stoa0076c.stoa002" urn="urn:cts:latinLit:stoa0076c.stoa002.opp-lat2">
     <ti:label xml:lang="eng">Institutiones</ti:label>
     <ti:description xml:lang="eng">Cassian, John ca. 360-ca. 435, Institutiones</ti:description>
   </ti:edition>

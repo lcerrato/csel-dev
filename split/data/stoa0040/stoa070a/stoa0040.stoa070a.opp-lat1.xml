@@ -77,7 +77,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='section'])"/>
+        <cRefPattern n="" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype=''])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -90,7 +90,7 @@
 </teiHeader>
 <text>
 <body>
-<div type="edition" n="">
+<div type="edition" n="urn:cts:latinLit:stoa0040.stoa070a.opp-lat1">
 <div n="1" subtype="section" type="textpart"> <p> 
           Libellum, quem mihi religio tua, frater Fulgenti, direxit, non <lb/>
             aspernatus accepi; quem utrum ipse dictaueris an aliunde quaesieris, <lb/>

@@ -143,7 +143,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:l[@n='$1'])"/>
+        <cRefPattern n="" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype=''])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -156,7 +156,7 @@
 </teiHeader>
 <text>
 <body>
-<div type="edition" n="">
+<div type="edition" n="urn:cts:latinLit:stoa0195a.stoa002.opp-lat1">
 <head>
             <title type="main">DE ECCLESIA. </title>
           </head>

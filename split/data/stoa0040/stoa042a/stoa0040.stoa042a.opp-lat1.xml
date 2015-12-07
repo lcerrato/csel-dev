@@ -74,8 +74,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book']//tei:div[@n='$2' and @subtype='chapter'])"/>
-        <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='book'])"/>
+        <cRefPattern n="" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype=''])"/>
       </refsDecl>
     </encodingDesc>
     
@@ -88,7 +87,7 @@
 </teiHeader>
 <text>
 <body>
-<div type="edition" n="">
+<div type="edition" n="urn:cts:latinLit:stoa0040.stoa042a.opp-lat1">
 <head>
             <title type="main">I. DE GENES! AD LITTERAM LIBRI DUODECIM. </title>
           </head>

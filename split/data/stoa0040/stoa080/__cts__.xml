@@ -1,6 +1,6 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0040.stoa080" groupUrn="urn:cts:latinLit:stoa0040">
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:stoa0040" urn="urn:cts:latinLit:stoa0040.stoa080">
   <ti:title xml:lang="eng">Liber qui appellatur Speculum</ti:title>
-  <ti:edition urn="urn:cts:latinLit:stoa0040.stoa080.opp-lat1" workUrn="urn:cts:latinLit:stoa0040.stoa080">
+  <ti:edition workUrn="urn:cts:latinLit:stoa0040.stoa080" urn="urn:cts:latinLit:stoa0040.stoa080.opp-lat1">
     <ti:label xml:lang="eng">Liber qui appellatur Speculum</ti:label>
     <ti:description xml:lang="eng">S. Aurelius Augustinus, Liber qui appellatur Speculum</ti:description>
   </ti:edition>

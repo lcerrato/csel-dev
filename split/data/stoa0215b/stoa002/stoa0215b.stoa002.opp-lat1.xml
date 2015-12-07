@@ -143,8 +143,7 @@
         CTS/CITE Architecture. 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="line" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='poem']//tei:l[@n='$2'])"/>
-        <cRefPattern n="poem" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='poem'])"/>
+        <cRefPattern n="https://github.com/opengreekandlatin/csel-dev/blob/master/data/stoa0215b/stoa002/stoa0215b.stoa002.opp-lat1.xml" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='https://github.com/opengreekandlatin/csel-dev/blob/master/data/stoa0215b/stoa002/stoa0215b.stoa002.opp-lat1.xml'])"/>
       </refsDecl>
     </encodingDesc>
     
