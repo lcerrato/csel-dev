@@ -1,6 +1,6 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0114a.stoa007" groupUrn="urn:cts:latinLit:stoa0114a">
   <ti:title xml:lang="eng">Ennodius Ambrosio et Beato</ti:title>
-  <ti:edition workUrn="urn:cts:latinLit:stoa0114a.stoa007" urn="urn:cts:latinLit:stoa0114a.stoa007.opp-lat1">
+  <ti:edition urn="urn:cts:latinLit:stoa0114a.stoa007.opp-lat1" workUrn="urn:cts:latinLit:stoa0114a.stoa007">
     <ti:label xml:lang="eng">Ennodius Ambrosio et Beato</ti:label>
     <ti:description xml:lang="eng">Ennodius, Magnus Felix Saint 474-521, Ennodius Ambrosio et Beato</ti:description>
   </ti:edition>

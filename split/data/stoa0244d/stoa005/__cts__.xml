@@ -1,6 +1,6 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0244d.stoa005" groupUrn="urn:cts:latinLit:stoa0244d">
   <ti:title xml:lang="eng">Interpretatio Orationum Gregorii Nazianzeni</ti:title>
-  <ti:edition workUrn="urn:cts:latinLit:stoa0244d.stoa005" urn="urn:cts:latinLit:stoa0244d.stoa005.opp-lat1">
+  <ti:edition urn="urn:cts:latinLit:stoa0244d.stoa005.opp-lat1" workUrn="urn:cts:latinLit:stoa0244d.stoa005">
     <ti:label xml:lang="eng">Interpretatio Orationum Gregorii Nazianzeni</ti:label>
     <ti:description xml:lang="eng">Rufinus of Aquileia 345-410, Interpretatio Orationum Gregorii Nazianzeni</ti:description>
   </ti:edition>
