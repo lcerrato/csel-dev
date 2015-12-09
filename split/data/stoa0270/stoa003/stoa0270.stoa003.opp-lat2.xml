@@ -78,7 +78,9 @@
 
 </p>
       <refsDecl n="CTS">
-        <cRefPattern n="https://github.com/opengreekandlatin/csel-dev/blob/master/data/stoa0270/stoa003/stoa0270.stoa003.opp-lat2.xml" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='https://github.com/opengreekandlatin/csel-dev/blob/master/data/stoa0270/stoa003/stoa0270.stoa003.opp-lat2.xml'])"/>
+        <cRefPattern n="section" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='dialog']//tei:div[@n='$2' and @subtype='chapter']//tei:div[@n='$3' and @subtype='section'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='dialog']//tei:div[@n='$2' and @subtype='chapter'])"/>
+        <cRefPattern n="dialog" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1' and @subtype='dialog'])"/>
       </refsDecl>
     </encodingDesc>
     
