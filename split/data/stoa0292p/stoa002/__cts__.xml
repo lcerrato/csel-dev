@@ -1,6 +1,6 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0292p.stoa002" groupUrn="urn:cts:latinLit:stoa0292p">
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:stoa0292p" urn="urn:cts:latinLit:stoa0292p.stoa002">
   <ti:title xml:lang="eng">Notitia Provinciarum et Civitatum Africae</ti:title>
-  <ti:edition urn="urn:cts:latinLit:stoa0292p.stoa002.opp-lat1" workUrn="urn:cts:latinLit:stoa0292p.stoa002">
+  <ti:edition workUrn="urn:cts:latinLit:stoa0292p.stoa002" urn="urn:cts:latinLit:stoa0292p.stoa002.opp-lat1">
     <ti:label xml:lang="eng">Notitia Provinciarum et Civitatum Africae</ti:label>
     <ti:description xml:lang="eng">Pseudo-Victor, Vitensis, Notitia Provinciarum et Civitatum Africae</ti:description>
   </ti:edition>
